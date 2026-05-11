@@ -4,17 +4,21 @@ A multi-page Power BI dashboard built to explore customer retention failure and 
 
 ## Technologies Used
 
-| Tool | Purpose |
-|---|---|
-| **MS SQL Server** | Data storage and querying |
-| **Power BI Desktop** | Dashboard development and visualisation |
-| **Power Query** | Data cleaning, transformation and shaping |
-| **DAX (Data Analysis Expressions)** | Calculated columns, measures and KPIs |
-| **File Format** | `.pbix` (Power BI Desktop file) |
+The following technologies and tools were used to build this project:
+
+- 🗄️ MS SQL Server – Used for database storage and SQL querying
+- 🔄 Power Query – Used for dashboard creation and visualization
+- 📊 Power BI Desktop – Used for data cleaning, transformation, and preprocessing
+- 📈 DAX (Data Analysis Expressions) – Used for creating calculated columns, measures, KPIs, and business metrics
+- 📁 .pbix File Format – Used for storing and sharing the Power BI project file
+
 
 ## Data Source
 
-The dataset used in this project was sourced from a **YouTube tutorial video** focused on business analytics and Power BI dashboard development. It contains customer-level and product-level transactional data across a 4-year period (2010–2014), including customer orders, sales, lifespan, recency, product categories, subcategories, costs and revenue metrics.
+The dataset used in this project was obtained from a YouTube tutorial/project.
+
+**Dataset Link:**
+[(https://academy.datawithbaraa.com/l/digital_download/930511/sql-course-materials)](https://academy.datawithbaraa.com/l/digital_download/930511/sql-course-materials)
 
 ## Features and Highlights
 
@@ -32,38 +36,6 @@ This dashboard was built to surface both problems simultaneously i.e. giving lea
 - Determine **which customer segments** are churning, at what rate and at what revenue cost
 - Uncover **which products and subcategories** are truly profitable vs which are revenue-heavy but margin-poor
 - Provide **actionable strategic recommendations** on where to focus retention investment and product diversification effort
-
-## Key Visuals Walkthrough
-
-### Page 1 — Customer Growth & Acquisition Analysis
-- **5 KPI Cards** — Total Sales, Customers, Avg Lifespan, Avg Order Value, Avg Monthly Revenue
-- **Phase-annotated Area + Line Chart** — Total, New, VIP and Regular customers from 2010–2014 divided into Starting Point, Stabilization, Growth and Decline phases
-- **Insight** — New customers perfectly overlap Total Customers throughout, confirming VIP and Regular segments never grew — the business ran entirely on acquisition
-
-### Page 2 — Customer Behaviour & Retention Analysis
-- **4 KPI Cards** — Churn Rate, Retention Rate, At Risk Rate, Repeat Purchase Rate
-- **Churn Rate by Customer Category** — New (49.1%), VIP (44.3%), Regular (31.6%) with Female/Male gender split
-- **Revenue % by Customer Category** — near-equal revenue distribution across New, VIP and Regular
-- **AOV by Churn Status** — Churned customers (1,203) outspend Active customers (989) — the business is losing its highest-value segment
-- **Avg Lifespan by Customer Category** — VIP 21.8 months vs New 1.2 months
-- **Revenue by Customer Segment** — At Risk segment holds ~28M in revenue, Lost contributes negligibly
-
-### Page 3 — Product Performance & Profitability Analysis
-- **5 KPI Cards** — Orders, Quantity, Top Product, Profit Margin %, Avg Monthly Revenue
-- **Revenue Growth by Year** — 55.6% → 8.2% → -70.6% showing sharp and consistent decline
-- **Profit by Category** — Bikes 11.1M vs Accessories 0.4M vs Clothing 0.1M
-- **Top 5 Subcategory by Profit Margin** — Tires & Tubes and Helmets lead at 62.9% while Road Bikes sits at 36.5%
-- **Top 5 Subcategory by Avg Selling Price** — Mountain Bikes at 1,753 confirms premium positioning
-- **Lowest 3 Products by Orders** — all three are Bike variants, contradicting the business's over-investment in Bikes
-- **Total Customers by Subcategory** — Tires & Tubes leads with 16,583 customers
-
-### Page 4 — Product Revenue & Subcategory Deep Dive
-- **Pareto Chart** — Road Bikes at 49.5% of total revenue, top 3 subcategories drive 96.5% combined
-- **Orders by Performance Category** — Bikes exclusively in High Performer, Clothing confined to Low Performer
-- **Top 5 Subcategory by Avg Change in Sales** — Road Bikes leads sales momentum
-- **Bookmark Navigator** — toggles between summary bar chart and detailed matrix with Orders, Revenue, Cost, Growth Rate % and Profit Margin % per subcategory with conditional formatting
-
----
 
 ## Impact and Insights
 
@@ -85,5 +57,5 @@ This dashboard was built to surface both problems simultaneously i.e. giving lea
 
 ---
 
-*Built with Power BI Desktop | Data sourced from YouTube tutorial dataset | Project by [Your Name]*
+Project by - Janice John
 
