@@ -23,16 +23,27 @@ The dataset used in this project was sourced from a YouTube tutorial video focus
 
 ## Features and Highlights
 
-Business Problem
+**Business Problem**
 
 The business was experiencing a sharp and unexplained decline in customer growth post-2013, despite a massive acquisition spike that made performance appear strong on the surface. Leadership had no visibility into whether the issue was rooted in acquisition, retention or product performance and which specific customer segments and product categories were driving the revenue collapse.
 
 Simultaneously, the commercial team was seeing inconsistent profit contributions across product categories but could not identify which subcategories were actually worth investing in. Bikes appeared to be the star performer by revenue, but the underlying margin data told a completely different story that was invisible without deeper analysis. Without a structured analytical view, the business was continuing to over-invest in the wrong areas while underleveraging its most profitable segments.
-**Example** - Product Side:
+**Example**:
 
 Road Bikes were generating the highest revenue at 49.5% of total, but their profit margin stood at only 36.5%, while Tires & Tubes carried a 62.9% margin with 16,583 customers. The business was investing heavily in a low-margin product while ignoring its most scalable profit opportunity.
 
 This dashboard was built to surface both problems simultaneously i.e. giving leadership a single view of customer lifecycle health alongside product profitability reality.
+
+## Key Questions answered:
+
+- Why did the customer base collapse after 2013 despite strong acquisition?
+- Where was the business over-investing without adequate return?
+- Which product subcategories should the business prioritise for investment?
+- How concentrated is our revenue and how vulnerable does that make us?
+- Are churned customers high-value or low-value?
+- How much revenue is at immediate risk of being lost?
+- Which subcategory is the most profitable yet most ignored?
+- Does gender influence churn or revenue behaviour?
 
 ## Goal of the Dashboard
 
