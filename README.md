@@ -1,6 +1,7 @@
 # Business Performance Dashboard — Customer & Product Analytics
 
-A multi-page Power BI dashboard built to explore customer retention failure and product revenue concentration risk across a retail business, enabling data-driven decisions on where to invest and what to retain.
+## 📌 Purpose of Dashboard
+This dashboard was built to diagnose the root causes of declining customer growth and inconsistent product profitability across a retail business, enabling enable smarter retention and investment decisions.
 
 ## Technologies Used
 
@@ -15,7 +16,7 @@ The following technologies and tools were used to build this project:
 
 ## Data Source
 
-The dataset used in this project was obtained from a YouTube tutorial/project.
+The dataset used in this project was sourced from a YouTube tutorial video focused on business analytics and Power BI dashboard development. The dataset was derived from that video for the purpose of building this end-to-end analytical dashboard project.
 
 **Dataset Link:**
 [(https://academy.datawithbaraa.com/l/digital_download/930511/sql-course-materials)](https://academy.datawithbaraa.com/l/digital_download/930511/sql-course-materials)
@@ -26,34 +27,37 @@ Business Problem
 
 The business was experiencing a sharp and unexplained decline in customer growth post-2013, despite a massive acquisition spike that made performance appear strong on the surface. Leadership had no visibility into whether the issue was rooted in acquisition, retention or product performance and which specific customer segments and product categories were driving the revenue collapse.
 
-Simultaneously, the commercial team was seeing inconsistent profit contributions across product categories but could not identify which subcategories were actually worth investing in. Bikes appeared to be the star performer by revenue, but the underlying margin data told a completely different story that was invisible without deeper analysis.
+Simultaneously, the commercial team was seeing inconsistent profit contributions across product categories but could not identify which subcategories were actually worth investing in. Bikes appeared to be the star performer by revenue, but the underlying margin data told a completely different story that was invisible without deeper analysis. Without a structured analytical view, the business was continuing to over-invest in the wrong areas while underleveraging its most profitable segments.
+**Example** - Product Side:
+Road Bikes were generating the highest revenue at 49.5% of total, but their profit margin stood at only 36.5%, while Tires & Tubes carried a 62.9% margin with 16,583 customers. The business was investing heavily in a low-margin product while ignoring its most scalable profit opportunity.
 
 This dashboard was built to surface both problems simultaneously i.e. giving leadership a single view of customer lifecycle health alongside product profitability reality.
 
-## Goal
+## Goal of the Dashboard
 
 - Identify **why customer growth collapsed** after 2013 despite strong acquisition numbers
 - Determine **which customer segments** are churning, at what rate and at what revenue cost
 - Uncover **which products and subcategories** are truly profitable vs which are revenue-heavy but margin-poor
 - Provide **actionable strategic recommendations** on where to focus retention investment and product diversification effort
 
+It was designed to identify not just **what** was happening in the business, but **why** it was happening.
+The dashboard was structured across 4 pages to build a progressive analytical narrative, starting from high-level customer growth trends, drilling into detailed churn and retention behaviour, then moving into product profitability and subcategory-level deep dive analysis, ensuring every stakeholder from executive to analyst could extract relevant insight.
+**Example**:
+The dashboard aimed to quantify the financial cost of churn and not just the rate. By building the Revenue by Customer Segment visual, it revealed that At Risk customers alone hold ~28M in revenue, giving the business a clear case for investing in retention campaigns rather than new acquisition.
+
 ## Impact and Insights
 
-### Customer Insights
-- **46.5% churn rate** — nearly half the customer base is lost, driven primarily by One-time New customers with a lifespan under 6 months
-- **AOV Paradox** — churned customers (AOV 1,203) spend significantly more per order than active customers (989), confirming the business is losing its highest-value segment first
-- **VIP Retention Crisis** — VIP customers churn at 44.3% despite having the longest lifespan of 21.8 months, indicating no loyalty infrastructure exists to reward longevity
-- **28M Revenue at Risk** — At Risk customers hold ~28M in revenue, representing the single highest-ROI retention intervention opportunity
-- **Conversion Funnel Broken** — Regular customers have the lowest churn rate (31.6%) yet the segment remains small, confirming the New → Regular → VIP journey is failing at the onboarding stage
-- **Gender Parity** — Female and Male customers behave almost identically across all metrics, confirming gender-based segmentation will not solve the retention problem
+The dashboard delivered a series of counterintuitive and actionable findings that directly challenged the business's existing assumptions.
+- On the customer side, the AOV paradox was the most significant finding. Churned customers were spending more per order (AOV 1,203) than active customers (AOV 989), confirming that the business was losing its highest-value customers first.
+- VIP customers, despite having the longest lifespan of 21.8 months, were churning at 44.3%, almost as fast as New customers at 49.1%, exposing a complete absence of loyalty infrastructure.
+- New customers averaged only 1.2 months of active engagement, confirming a broken onboarding and conversion ability.
+- On the product side, the revenue concentration finding was critical. 96.5% of total revenue was generated by just 3 subcategories (Road Bikes, Mountain Bikes, Touring Bikes), leaving 14 subcategories contributing a combined 3.5%.
+- The three lowest-performing products by orders were all Bike variants, directly contradicting the business's strategic over-investment in the Bikes category.
+- Female and Male customers behave almost identically across all metrics, confirming gender-based segmentation will not solve the retention problem
+- **Accessories are critically underleveraged**. They have high margin, high customer base, low manufacturing cost and strong repeat purchase potential, the most scalable profit opportunity in the portfolio.
 
-### Product Insights
-- **Revenue collapsed -70.6% in 2013** — the business growth model is unsustainable and weakening
-- **96.5% of revenue from 3 subcategories** — extreme concentration risk; if Road Bikes demand drops the entire business is vulnerable
-- **High Revenue ≠ High Margin** — Road Bikes generates 49.5% of revenue but carries only 36.5% profit margin, while Tires & Tubes serves 16,583 customers at 62.9% margin
-- **Accessories are critically underleveraged** — high margin, high customer base, low manufacturing cost and strong repeat purchase potential — the most scalable profit opportunity in the portfolio
-- **Lowest performing products are all Bikes** — Mountain-500 and Mountain-100 variants with 36–41 orders each, contradicting the business's strategic over-investment in the Bikes category
-- **Strategic Recommendation** — reduce dependency on premium low-margin Bikes, invest in high-margin accessory subcategories (Tires & Tubes, Helmets, Bottles & Cages) and build a customer retention infrastructure to convert New customers into Regular and VIP segments
+**Strategic Recommendation**
+Reduce dependency on premium low-margin Bikes, invest in high-margin **Accessory** subcategories (Tires & Tubes, Helmets, Bottles & Cages) and build a customer retention infrastructure to convert New customers into Regular and VIP segments
 
 ---
 
