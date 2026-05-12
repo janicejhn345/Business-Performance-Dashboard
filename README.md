@@ -29,6 +29,7 @@ The business was experiencing a sharp and unexplained decline in customer growth
 
 Simultaneously, the commercial team was seeing inconsistent profit contributions across product categories but could not identify which subcategories were actually worth investing in. Bikes appeared to be the star performer by revenue, but the underlying margin data told a completely different story that was invisible without deeper analysis. Without a structured analytical view, the business was continuing to over-invest in the wrong areas while underleveraging its most profitable segments.
 **Example** - Product Side:
+
 Road Bikes were generating the highest revenue at 49.5% of total, but their profit margin stood at only 36.5%, while Tires & Tubes carried a 62.9% margin with 16,583 customers. The business was investing heavily in a low-margin product while ignoring its most scalable profit opportunity.
 
 This dashboard was built to surface both problems simultaneously i.e. giving leadership a single view of customer lifecycle health alongside product profitability reality.
@@ -43,6 +44,7 @@ This dashboard was built to surface both problems simultaneously i.e. giving lea
 It was designed to identify not just **what** was happening in the business, but **why** it was happening.
 The dashboard was structured across 4 pages to build a progressive analytical narrative, starting from high-level customer growth trends, drilling into detailed churn and retention behaviour, then moving into product profitability and subcategory-level deep dive analysis, ensuring every stakeholder from executive to analyst could extract relevant insight.
 **Example**:
+
 The dashboard aimed to quantify the financial cost of churn and not just the rate. By building the Revenue by Customer Segment visual, it revealed that At Risk customers alone hold ~28M in revenue, giving the business a clear case for investing in retention campaigns rather than new acquisition.
 
 ## Impact and Insights
@@ -57,9 +59,10 @@ The dashboard delivered a series of counterintuitive and actionable findings tha
 - **Accessories are critically underleveraged**. They have high margin, high customer base, low manufacturing cost and strong repeat purchase potential, the most scalable profit opportunity in the portfolio.
 
 **Strategic Recommendation**
+
 Reduce dependency on premium low-margin Bikes, invest in high-margin **Accessory** subcategories (Tires & Tubes, Helmets, Bottles & Cages) and build a customer retention infrastructure to convert New customers into Regular and VIP segments
 
 ---
 
-Project by - Janice John
+Project by - **Janice John**
 
